@@ -34,11 +34,11 @@ Dialogue: 0,0:30:10.00,0:30:20.00,Default,,0,0,0,,{\pos(966,96)}
 Dialogue: 0,0:40:20.00,0:40:30.00,Default,,0,0,0,,{\pos(966,96)}
 Dialogue: 0,0:50:05.00,0:50:15.00,Default,,0,0,0,,{\pos(966,96)} 
 Dialogue: 0,0:55:10.00,0:55:30.00,Default,,0,0,0,,{\pos(966,96)}
-Dialogue: 0,1:00:10.00,1:00:20.00,Default,,0,0,0,,{\pos(966,96)}Encoded By Join Us On Telegram @ToonEncodes
-Dialogue: 0,1:15:10.00,1:15:30.00,Default,,0,0,0,,{\pos(966,96)}Encoded By ToonEncodes.one
-Dialogue: 0,1:20:10.00,1:20:20.00,Default,,0,0,0,,{\pos(966,96)}Encoded By Join Us On Telegram @ToonEncodes
-Dialogue: 0,1:25:10.00,1:25:30.00,Default,,0,0,0,,{\pos(966,96)}Encoded By ToonEncodes.one
-Dialogue: 0,1:30:10.00,1:30:20.00,Default,,0,0,0,,{\pos(966,96)}Encoded By Join Us On Telegram @ToonEncodes
-Dialogue: 0,1:35:10.00,1:35:30.00,Default,,0,0,0,,{\pos(966,96)}Encoded By ToonEncodes.one
-Dialogue: 0,1:40:10.00,1:40:20.00,Default,,0,0,0,,{\pos(966,96)}Encoded By Join Us On Telegram @ToonEncodes
-Dialogue: 0,1:45:10.00,1:45:30.00,Default,,0,0,0,,{\pos(966,96)}Encoded By ToonEncodes.one
+Dialogue: 0,1:00:10.00,1:00:20.00,Default,,0,0,0,,{\pos(966,96)} 
+Dialogue: 0,1:15:10.00,1:15:30.00,Default,,0,0,0,,{\pos(966,96)}
+Dialogue: 0,1:20:10.00,1:20:20.00,Default,,0,0,0,,{\pos(966,96)} 
+Dialogue: 0,1:25:10.00,1:25:30.00,Default,,0,0,0,,{\pos(966,96)}
+Dialogue: 0,1:30:10.00,1:30:20.00,Default,,0,0,0,,{\pos(966,96)} 
+Dialogue: 0,1:35:10.00,1:35:30.00,Default,,0,0,0,,{\pos(966,96)}
+Dialogue: 0,1:40:10.00,1:40:20.00,Default,,0,0,0,,{\pos(966,96)}
+Dialogue: 0,1:45:10.00,1:45:30.00,Default,,0,0,0,,{\pos(966,96)}
