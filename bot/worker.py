@@ -28,8 +28,6 @@ async def stats(e):
 async def dl_link(event):
     if not event.is_private:
         return
-    if str(event.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     link, name = "", ""
     try:
         link = event.text.split()[1]
@@ -120,8 +118,6 @@ async def encod(event):
         if not event.is_private:
             return
         event.sender
-        if str(event.sender_id) not in OWNER and event.sender_id !=DEV:
-            return await event.reply("**Sorry You're not An Authorised User!**")
         if not event.media:
             return
         if hasattr(event.media, "document"):
