@@ -116,8 +116,6 @@ async def test(event):
 
 
 async def sysinfo(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     total, used, free, disk= disk_usage('/')
     total = hbs(total)
     free = hbs(free)
@@ -183,8 +181,6 @@ async def skip(e):
 
 
 async def renew(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     await e.reply("**Cleared Queued, Working Files and Cached Downloads!**")
     WORKING.clear()
     QUEUE.clear()
@@ -200,8 +196,6 @@ async def renew(e):
 
 
 async def coding(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     ffmpeg = e.text.split(" ", maxsplit=1)[1]
     ffmpegcode.clear()
     ffmpegcode.insert(0, f"""{ffmpeg}""")
@@ -210,27 +204,19 @@ async def coding(e):
 
 
 async def getlogs(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     await e.client.send_file(e.chat_id, file=LOG_FILE_NAME, force_document=True)
 
 
 async def getthumb(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     await e.client.send_file(e.chat_id, file="/bot/thumb.jpg", force_document=False, caption="**Your Current Thumbnail.**")
 
 
 async def getcode(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     await e.reply(f"**Your Current FFMPEG Code is**\n\n`{ffmpegcode[0]}`")
     return
 
 
 async def clearqueue(e):
-    if str(e.sender_id) not in OWNER and event.sender_id !=DEV:
-        return
     await e.reply("**Cleared Queued Files!**")
     QUEUE.clear()
     return
